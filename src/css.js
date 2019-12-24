@@ -160,19 +160,11 @@ const string = `.skin *{box-sizing: border-box;margin: 0;padding: 0;}
   margin-left: -44px;
   z-index: 3;
 }
-.face > img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-}
+
 .face.left{
   transform: translateX(-180px);
   background: #ff0000;
   border-radius: 50%;
-}
-.face.left > img{
-  transform: rotateY(180deg);
-  transform-origin: 0 0;
 }
 .face.right{
   transform: translateX(180px);
